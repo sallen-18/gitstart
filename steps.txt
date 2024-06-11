@@ -1,0 +1,24 @@
+1. Ensure project dir
+2. create target dir
+    a. check for duplicate target dir
+3. git init 
+4. create README.md
+5. git add
+6. git commit -m 'initial commit -setup with script'
+7. git remote add origin https://github.com/${USERNAME}/${REPO_NAME}.git
+8. git push --set-upstream origin master
+9. cd dir 
+
+
+BUGS
+- auth not always working
+- need error handling on status - grep and validate?
+
+
+NOTES
+- needed to setup global git config
+
+Nice to have 
+
+- set up python venv when particular flag?
+- private or public -flags?
